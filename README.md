@@ -9,6 +9,7 @@ In the project, I explored Java and its little details. Here, was studied the th
 - [X] Objects
 - [X] Pass by reference
 - [X] Methods
+- [X] Class Relationships
 
 ---
 
