@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+C:\GIT\imersoes_e_cursos\Java - Alura\JavaOO-strawBank\.metadata\.plugins\org.eclipse.jdt.core
+1943304617.index
+3844443775.index
