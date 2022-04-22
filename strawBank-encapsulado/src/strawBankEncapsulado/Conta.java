@@ -64,8 +64,13 @@ class Conta {
 	}
 	
 	// Titular --------------------
+	
 	public Cliente getTitular() {
 		return this.titular;
+	}
+	
+	public void setTitular(Cliente titular) {
+		this.titular = titular;
 	}
 	
 }

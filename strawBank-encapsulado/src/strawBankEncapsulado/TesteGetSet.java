@@ -3,15 +3,19 @@ package strawBankEncapsulado;
 public class TesteGetSet {
 	public static void main(String[] args) {
 		
-		Conta conta = new Conta();
-		Cliente cliente = new Cliente();
-						
+		Conta conta = new Conta();				
 		conta.setNumero(123456);
-		
 		System.out.println(conta.getNumero());
 		
-		cliente.setNome("Andrieli");
+		Cliente cliente = new Cliente();
+		conta.setTitular(cliente);
 		
-		System.out.println(conta.getTitular());
+		cliente.setNome("Andrieli Luci");
+		System.out.println(conta.getTitular().getNome());
+		
+		// Maneira semelhante de fazer o código acima:
+		conta.getTitular().setCpf("111.111.111-11");
+		
+		System.out.println(conta.getTitular().getCpf());
 	}
 }
