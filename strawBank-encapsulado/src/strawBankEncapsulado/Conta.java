@@ -5,7 +5,16 @@ class Conta {
 	private int agencia;
 	private int numero;
 	private Cliente titular; // titular é do tipo Cliente
-
+	
+	public Conta(int agencia, int numero) {
+		
+		// uma conta só pode ser criada após confirmar sua agência e seu número.
+		this.agencia = agencia;
+		this.numero = numero;
+		
+		System.out.println("Uma nova conta esta sendo criada...");
+	}
+	
 	// Saldo --------------------
 	public void deposita(double valor) {
 
@@ -50,17 +59,9 @@ class Conta {
 		return this.agencia;
 	}
 	
-	public void setAgencia(int agencia ) {
-		this.agencia = agencia;
-	}
-	
 	// Numero --------------------
 	public int getNumero() {
 		return this.numero;
-	}
-	
-	public void setNumero(int numero) {
-		this.numero = numero;
 	}
 	
 	// Titular --------------------

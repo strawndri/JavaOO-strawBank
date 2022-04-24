@@ -3,9 +3,9 @@ package strawBankEncapsulado;
 public class TesteGetSet {
 	public static void main(String[] args) {
 		
-		Conta conta = new Conta();				
-		conta.setNumero(123456);
-		System.out.println(conta.getNumero());
+		Conta conta = new Conta(19222, 3539);				
+		//	conta.setNumero(123456); -> inválido
+		System.out.println("Numero da conta: " + conta.getNumero());
 		
 		Cliente cliente = new Cliente();
 		conta.setTitular(cliente);
