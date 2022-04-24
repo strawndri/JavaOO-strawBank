@@ -11,6 +11,8 @@ In the project, I explored Java and its little details. Here, was studied the th
 - [X] Methods
 - [X] Class Relationships
 - [X] Get and Set
+- [X] Constructors
+- [X] Static methods and attributes
 
 ---
 
